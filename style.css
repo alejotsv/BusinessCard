@@ -3,7 +3,29 @@
 }
 
 .info-container {
-  background-color: #23252c;
-  width: 550;
-  height: 868;
+  position: absolute;
+  width: 550px;
+  height: 868px;
+  left: 65px;
+  top: 53px;
+  
+  background: #23252C;
+}
+
+.profile-img {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 317px;
+  height: 317px;
+  left: 116px;
+  top: 44px;
+
+  background: url(./src/assets/profile.jpg);
+  background-position-x: -30px;
+  background-position-y: -40px;
+  background-repeat: no-repeat;
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px 10px 0px 0px;
 }
