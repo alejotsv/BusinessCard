@@ -55,6 +55,9 @@
   align-items: center;
   padding: 9px 13px 9px 11px;
   gap: 8px;
+  text-decoration: none;
+  color: rgba(30, 31, 38, 1);
+
 
   position: absolute;
   width: 115px;
@@ -79,7 +82,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  height: 20px;
+  height: 20px;  
 }
 
 .linkedin-btn {
