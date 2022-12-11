@@ -182,3 +182,11 @@
   color: #F5F5F5;
   text-decoration: none;
 }
+
+.description {
+  position: absolute;
+  width: 247px;
+  height: 201px;
+  left: 152px;
+  top: 535px;  
+}
