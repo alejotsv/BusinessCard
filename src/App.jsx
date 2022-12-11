@@ -1,10 +1,12 @@
 import React from "react";
-import Info from "./components/Info";
+import Image from "./components/Image";
 
 const App = () => {
   return(
-    <div>
-      <Info />
+    <div className="card-container">
+      <div className="card-sub-container">
+        <Image />
+      </div>
     </div>
   )
 }

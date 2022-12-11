@@ -2,7 +2,11 @@
   box-sizing: border-box;
 }
 
-.info-container {
+.body {
+  background-color: #000000;
+}
+
+.card-container {
   position: absolute;
   width: 550px;
   height: 868px;
@@ -10,6 +14,10 @@
   top: 53px;
   
   background: #23252C;
+}
+
+.card-sub-container {
+  background-color: aliceblue;
 }
 
 .profile-img {
