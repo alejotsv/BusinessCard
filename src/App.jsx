@@ -4,11 +4,9 @@ import Info from "./components/Info";
 
 const App = () => {
   return(
-    <div className="card-container">
-      <div className="card-sub-container">
+    <div className="card-container">      
         <Image />
-        <Info />
-      </div>
+        <Info />      
     </div>
   )
 }
