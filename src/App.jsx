@@ -4,6 +4,7 @@ import Info from "./components/Info";
 import Buttons from "./components/Buttons";
 import About from "./components/About";
 import Description from "./components/Description";
+import Footer from "./components/Footer";
 
 const App = () => {
   return(
@@ -11,7 +12,8 @@ const App = () => {
         <Image />
         <Info />
         <Buttons />
-        <Description />        
+        <Description />
+        <Footer />
     </div>
   )
 }
