@@ -2,3 +2,8 @@
   box-sizing: border-box;
 }
 
+.info-container {
+  background-color: #23252c;
+  width: 550;
+  height: 868;
+}
