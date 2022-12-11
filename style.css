@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.body {
+.parent-container {
   background-color: #000000;
 }
 
@@ -10,8 +10,15 @@
   position: absolute;
   width: 550px;
   height: 868px;
-  left: 65px;
-  top: 53px;
+  /* left: 65px;
+  top: 53px; */
+  right: 50%;
+  left: 50%;
+  top: 50%;
+  bottom: 50%;
+  border-radius: 10px 10px 10px 10px;
+
+  transform: translate(-50%, -50%);
   
   background: #23252C;
 }
