@@ -46,3 +46,21 @@
   background: #1A1B21;
 
 }
+
+
+.title > h1 {
+  /* position: absolute;
+  width: 178.06px;
+  height: 25.81px; */
+  left: 186px;
+  top: 382px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
